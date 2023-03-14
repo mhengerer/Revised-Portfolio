@@ -11,7 +11,9 @@ React Portfolio
 - [Installation](#installation)
 
 ## Installation
-To view the completed and updated website just visit: mhengerer.com
+To view the completed and updated website just visit: 
+
+mhengerer.com
 
 ## License
 MIT
