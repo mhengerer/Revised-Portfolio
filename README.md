@@ -1,2 +1,0 @@
-# Revised-Portfolio
-React Portfolio

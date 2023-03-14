@@ -1,0 +1,213 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "TurboSquid Stem Converter v1.0.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9275,
+      "type": "VEC3",
+      "max": [5.373451232910156, 4.386036396026611, 3.8520455360412598],
+      "min": [-4.713849067687988, -4.930451393127441, -3.846980571746826]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9275,
+      "type": "VEC3",
+      "max": [0.9996898174285889, 0.9987795948982239, 0.9999786615371704],
+      "min": [-0.9988574385643005, -0.999699056148529, -0.9905705451965332]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9275,
+      "type": "VEC2",
+      "max": [0.9925000071525574, 0.9925000071525574],
+      "min": [0.007499999832361937, 0.013625025749206543]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9275,
+      "type": "VEC2",
+      "max": [1.0, 1.0],
+      "min": [0.0, 0.0]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 52104,
+      "type": "SCALAR",
+      "max": [9274.0],
+      "min": [0.0]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 475208,
+      "uri": "scene.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 111300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 111300,
+      "byteLength": 111300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 222600,
+      "byteLength": 74200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 296800,
+      "byteLength": 74200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 371000,
+      "byteLength": 104208,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "AbstractShape03_mat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "AbstractShape03",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1]
+    },
+    {
+      "name": "AbstractShape03_vray_$_PreRotation",
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, -4.371138828673793e-8, -1.0, 0.0, 0.0, 1.0,
+        -4.371138828673793e-8, 0.0, 0.0, 0.0, 0.0, 1.0
+      ],
+      "children": [2]
+    },
+    {
+      "name": "AbstractShape03_vray_$_GeometricTranslation",
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
+        5.048556327819824, 1.0
+      ],
+      "children": [3]
+    },
+    {
+      "name": "AbstractShape03_vray",
+      "children": [4]
+    },
+    {
+      "name": "AbstractShape03_vray_$_GeometricTranslationInverse",
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, -0.0,
+        -5.048556327819824, 1.0
+      ],
+      "children": [5]
+    },
+    {
+      "name": "node",
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+        -0.32980111241340637, 0.2722075283527374, 5.046024322509766, 1.0
+      ],
+      "children": [6]
+    },
+    {
+      "name": "AbstractShape03",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "scene": 0,
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/baseColor.jpg"
+    },
+    {
+      "uri": "textures/occlusionRoughnessMetallic.jpg"
+    },
+    {
+      "uri": "textures/normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
