@@ -13,7 +13,7 @@ React Portfolio
 ## Installation
 To view the completed and updated website just visit: 
 
-mhengerer.com
+https://mhengerer.com
 
 ## License
 MIT
